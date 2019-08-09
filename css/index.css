@@ -163,20 +163,19 @@ header nav{
     width: 100%;
 }
 
-.navBox{
-    width: 100%;
-    height: 100%;
-    
-    border: 1px solid;
-    
+.header-img{
+    margin-right: 41px;
+}
 
+.navBox{
+    width: 70%;
+    height: 100%;
 }
 
 .navLinks{
     display: flex;
-    justify-content: space-evenly;
-
-    align-content: flex-start;
+    justify-content: space-between;
+    padding-top: 25px;
 }
 
 .navLinks a{
