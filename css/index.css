@@ -147,9 +147,7 @@ footer nav a {
 
 /* Header */
 
-*{
-    
-}
+
 
 header{
     display: flex;
@@ -183,7 +181,7 @@ header nav{
     color: black;
 }
 
-.headlights{
+.jumbo{
     margin-bottom: 3%;
 }
 
@@ -228,4 +226,52 @@ header nav{
 
 #box10{
     background-color: dodgerblue;
+}
+
+
+/* About Page */
+
+hr{
+    border: none;
+    border-top: 1px dashed black;
+}
+
+.about{
+    padding: 0 2%;
+    margin-bottom: 3%;
+}
+
+.about-us{
+    margin: 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.strategy, .how, .places, .collab{
+    border: 1px solid;
+    width: 50%;
+    padding: 0 2%;
+}
+
+.strategy img, .how img, .places img, .collab img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.strategy p, .how p, .places p, .collab p{
+    margin-bottom: 4%;
+}
+
+.learn-btn{
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 7px;
+    margin-bottom: 3%;
+}
+
+.together{
+    margin: 4.5% 0;
+    padding: 0 2%;
 }
