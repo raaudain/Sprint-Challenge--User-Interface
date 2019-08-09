@@ -192,6 +192,19 @@ header nav{
 
 /* Middle Content */
 
+.box{
+    transition: transform 300ms ease-in-out;
+}
+
+.box:hover{
+    animation: rotate 300ms infinite linear;
+}
+
+@keyframes rotate{
+    form {transform: scale(1.3) rotate(0deg);}
+    to{transform: scale(1.3) rotate(360deg);}
+}
+
 #box1{
     background-color: teal;
 }
